@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Booking</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <body>
+
+
+    </div>
+    <div class="topnav" id="myTopnav">
+      <a href="#home" class="active">Home</a>
+      <a href="#news">News</a>
+      <a href="#contact">Contact</a>
+      <a href="#about">About</a>
+      <a href="javascript:void(0);" class="icon" onclick="burger()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+        <h1>Book bord til pool her</h1>
+        <div id="booking">
+        <label for="start">Vælg dato:</label>
+
+<input type="date" class="dato"
+       value="2023-01-01"
+       min="2023-01-01" max="2023-12-31">
+
+       <label for="tidspunkt">Vælg starttidspunkt:</label>
+
+<input type="time" class="tid" name="tid"
+       min="12:00" max="02:00" required>
+
+       <label for="tidspunkt">Vælg sluttidspunkt:</label>
+
+       <input type="time" class="tid" name="tid"
+              min="12:00" max="02:00" required>
+
+              <label for="mennesker">Antal mennesker (maks 4 per bord):</label>
+
+              <input type="number" id="mennesker" name="mennesker"
+                     min="1" max="4">
+
+             <label for="email">Indtast email:</label>
+
+                     <input type="email" id="email"/>  
+
+            <label for="navn">Indtast dit navn:</label>
+
+            <input type="text" id="navn" name="navn"/>
+
+            
+            <label for="tlf">Indtast dit telefonnummer:</label>
+
+            <input type="tel" id="tlf" name="tlf"/>
+
+            <select name="drop">
+                <option value="pool">Pool</option>
+                <option value="shuffleboard">Shuffleboard</option>
+              </select>
+<br>
+<br>
+
+<button id="tjek" onclick="myFunction()">Tjek tilgængelighed</button>
+<div id="gemt">
+    Der var et tilgængeligt bord.
+    <br>
+    <button id="bookknap" onclick="myFunction1()">Book nu</button>
+  </div>
+
+    <div id="done">
+        Booking bekræftet, du vil modtage en bekræftelsesmail.
+    </div>            
+         
+
+    <script>
+      function burger() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+      </script>
+ 
+            <script>
+                function myFunction() {
+                  var x = document.getElementById("gemt");
+                  if (x.style.display === "block") {
+                    x.style.display = "none";
+                  } else {
+                    x.style.display = "block";
+                  }
+                }
+                </script>         
+                            <script>
+                                function myFunction1() {
+                                  var x = document.getElementById("done");
+                                  if (x.style.display === "block") {
+                                    x.style.display = "none";
+                                  } else {
+                                    x.style.display = "block";
+                                  }
+                                }
+                                </script>      
+
+    </body>
+</html>
