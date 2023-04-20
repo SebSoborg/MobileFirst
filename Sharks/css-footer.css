@@ -1,0 +1,122 @@
+/* haj */ 
+
+
+@media screen and (max-width:1080px) {
+    footer {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .footerindhold {
+        display: flex;
+        flex-direction: column;
+
+        width: 100%;
+        
+    }
+}
+
+
+
+/* <----- IMG -----> */
+
+#location {
+    width: 30%;
+}
+
+#chat {
+    width: 10%;
+
+}
+
+#schedule {
+    width: 30%;
+
+}
+
+
+
+
+/* <----- footer -----> */
+footer {
+    display: flex;
+    flex-direction: column;
+    background-color: #606C51;
+    color: white;
+    padding-top: 2%;
+    border: black 2px;
+    border-style: solid;
+}
+
+.footeroverskrift {
+    text-align: center;
+    margin-bottom: 2%;
+    padding-bottom: 2%;
+
+}
+
+/* <----- footer indhold ----->*/
+.footerindhold {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-bottom: 2%;
+}
+
+footer p {
+    font-family: 'Abel', sans-serif;
+}
+
+footer h1{
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 2pt;
+}
+footer h2{
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 2pt;
+}
+footer h3{
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 2pt;
+}
+
+.box1 {
+    
+    max-width: fit-content;
+    text-align: center;
+}
+
+.box2 {
+    max-width: fit-content;
+    text-align: center;
+}
+
+.footerhr {
+    width: 20%;
+    margin-right: 40%;
+    margin-left: 40%;
+    margin-bottom: 1%;
+}
+
+.so-me {
+    margin-top: 1%;
+}
+
+.box3 {
+    max-width: fit-content;
+    text-align: center;
+    
+}
+
+.boxtext {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.brands {
+    width: 4%;
+    margin-left: 1%;
+}
+
+
