@@ -20,6 +20,7 @@ h1 {
     color: rgb(255, 255, 255);
     text-align: center;
     opacity: 70%;
+   
 }
 input {
     text-align: center;
@@ -114,18 +115,20 @@ select {
     }
 }
 .topnav {
+
     overflow: hidden;
-    
-    display: flex;
-    justify-content: space-evenly;
     background: rgb(236,28,36);
 background: linear-gradient(90deg, rgba(236,28,36,1) 14%, rgba(177,50,50,1) 66%);
     margin-top: -0.5%;
     margin-right: -2%;
     margin-left: -2%;
+    position: sticky;
+    top: 0%;
+    z-index: 1;
   }
   
   .topnav a {
+
     float: left;
     display: block;
     color: #f2f2f2;
@@ -137,6 +140,7 @@ background: linear-gradient(90deg, rgba(236,28,36,1) 14%, rgba(177,50,50,1) 66%)
     text-decoration: underline;
     text-decoration-color: #dd1515;
     
+    margin-left: 15%;
   }
   
   .topnav a:hover {
@@ -145,7 +149,15 @@ background: linear-gradient(90deg, rgba(236,28,36,1) 14%, rgba(177,50,50,1) 66%)
     text-decoration-thickness: 3px;
   }
   
-  
+  #logo {
+    width: 130px;
+    height: 130px;
+    position: fixed;
+    top: 0%;
+    margin-left: 40px;
+    max-width: 100%;
+   
+  }
   .topnav .icon {
     display: none;
   }
@@ -155,11 +167,12 @@ background: linear-gradient(90deg, rgba(236,28,36,1) 14%, rgba(177,50,50,1) 66%)
     .topnav a.icon {
       float: right;
       display: block;
+      margin-right: 5%;
     }
   }
   
   @media screen and (max-width: 900px) {
-    .topnav.responsive {position: relative;}
+    .topnav.responsive {position: sticky;}
     .topnav.responsive .icon {
       position: absolute;
       right: 0;
@@ -168,7 +181,25 @@ background: linear-gradient(90deg, rgba(236,28,36,1) 14%, rgba(177,50,50,1) 66%)
     .topnav.responsive a {
       float: none;
       display: block;
-      text-align: left;
-    }
+      text-align: center;
   }
-  
+}
+@media screen and (max-width: 900px) {
+  h1 {
+font-size: 17px;
+text-align: center;
+  }
+    }
+    @media screen and (max-width: 900px) {
+       #logo {
+        width: 100px;
+        height: 100px;
+       }
+        }
+        @media screen and (max-width: 900px) {
+        #booking {
+            width: 50%;
+            margin-left: 25%;
+        }
+            }
+          
