@@ -1,9 +1,9 @@
 
 body {
-    background-image: url(Pool.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background: rgb(0,0,0);
+    background: radial-gradient(circle, rgba(0,0,0,1) 6%, rgba(115,115,115,1) 100%);
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
 }
 #booking {
     width: 30%;
@@ -76,6 +76,7 @@ select {
     text-align: center;
     margin-top: 2%;
     font-size: 20px;
+    margin-bottom: 2%;
 }
 #gemt {
     display: none;
@@ -162,7 +163,7 @@ background: linear-gradient(90deg, rgba(236,28,36,1) 14%, rgba(177,50,50,1) 66%)
     display: none;
   }
   
-  @media screen and (max-width: 900px) {
+  @media screen and (max-width: 1080px) {
     .topnav a:not(:first-child) {display: none;}
     .topnav a.icon {
       float: right;
@@ -171,7 +172,7 @@ background: linear-gradient(90deg, rgba(236,28,36,1) 14%, rgba(177,50,50,1) 66%)
     }
   }
   
-  @media screen and (max-width: 900px) {
+  @media screen and (max-width: 1080px) {
     .topnav.responsive {position: sticky;}
     .topnav.responsive .icon {
       position: absolute;
@@ -184,22 +185,152 @@ background: linear-gradient(90deg, rgba(236,28,36,1) 14%, rgba(177,50,50,1) 66%)
       text-align: center;
   }
 }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1080px) {
   h1 {
 font-size: 17px;
 text-align: center;
   }
     }
-    @media screen and (max-width: 900px) {
+    @media screen and (max-width: 1080px) {
        #logo {
         width: 100px;
         height: 100px;
        }
         }
-        @media screen and (max-width: 900px) {
+        @media screen and (max-width: 1080px) {
         #booking {
             width: 50%;
             margin-left: 25%;
         }
             }
-          
+            @media screen and (max-width:1020px){
+                .footerindhold {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 20px;
+                 justify-content: center;
+                 margin-left: 0;
+                 margin-right: 0;
+                
+            
+                    width: 100%;
+                }
+                #chat {
+                    width: 30%;
+                }
+                #location {
+                    width: 30%;
+                }
+                #schedule {
+                    width: 30%;
+                }
+            
+                
+            }
+            
+            
+            
+            @media screen and (min-width:1020px){
+            
+            #location {
+                width: 30%;
+            }
+            
+            #chat {
+                width: 10%;
+            
+            }
+            
+            #schedule {
+                width: 30%;
+            
+            }
+            
+            }
+            
+            
+            /* <----- footer -----> */
+            footer {
+                display: flex;
+                flex-direction: column;
+                background-color: #606C51;
+                color: white;
+                padding-top: 2%;
+                border: black 2px;
+                border-style: solid;
+
+            }
+            
+            .footeroverskrift {
+                text-align: center;
+                margin-bottom: 2%;
+                padding-bottom: 2%;
+            
+            }
+            
+            /* <----- footer indhold ----->*/
+            .footerindhold {
+                display: flex;
+                justify-content: space-evenly;
+                padding-bottom: 2%;
+            }
+            
+            footer p {
+                font-family: 'Abel', sans-serif;
+            }
+            
+            footer h1{
+                font-family: 'Bebas Neue', cursive;
+                letter-spacing: 2pt;
+            }
+            footer h2{
+                font-family: 'Bebas Neue', cursive;
+                letter-spacing: 2pt;
+            }
+            footer h3{
+                font-family: 'Bebas Neue', cursive;
+                letter-spacing: 2pt;
+            }
+            
+            .box1 {
+                
+                
+                text-align: center;
+            }
+            
+            .box2 {
+               
+                text-align: center;
+            }
+            
+            .footerhr {
+                width: 20%;
+                margin-right: 40%;
+                margin-left: 40%;
+                margin-bottom: 1%;
+            }
+            
+            .so-me {
+                margin-top: 1%;
+            }
+            
+            .box3 {
+              
+                text-align: center;
+              
+                
+            }
+            
+            .boxtext {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-evenly;
+            }
+            
+            .brands {
+                width: 4%;
+                margin-left: 1%;
+            }
+            
+            
+            
