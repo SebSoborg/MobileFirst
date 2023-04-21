@@ -20,7 +20,7 @@ body {
 h1 {
     color: rgb(255, 255, 255);
     text-align: center;
-    opacity: 70%;
+    
    
 }
 input {
@@ -122,8 +122,6 @@ select {
     background: rgb(236,28,36);
 background: linear-gradient(90deg, rgba(236,28,36,1) 14%, rgba(177,50,50,1) 66%);
     margin-top: -0.5%;
-    margin-right: -2%;
-    margin-left: -2%;
     position: sticky;
     top: 0%;
     z-index: 1;
@@ -206,7 +204,6 @@ text-align: center;
     }
 .pooltop {
     width: 100%;
-    height: 25%;
     margin-top: -10%;
 }
 #poolhalltekst1 {
@@ -223,7 +220,7 @@ text-align: center;
     line-height: 154px;
     -webkit-text-stroke: #dd1515;
     -webkit-text-stroke-width: 1px;
-    margin-top: -2%;
+    margin-top: -10%;
     font-weight: bold;
     
 }
@@ -242,8 +239,6 @@ text-align: center;
                     flex-direction: column;
                     gap: 20px;
                  justify-content: center;
-                 margin-left: 0;
-                 margin-right: 0;
                 
             
                     width: 100%;
